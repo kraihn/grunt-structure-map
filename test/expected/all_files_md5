@@ -1,0 +1,86 @@
+{
+  "files": [
+    {
+      "name": "123",
+      "type": "",
+      "directory": "test/fixtures",
+      "filepath": "test/fixtures/123",
+      "size": 5,
+      "blocks": 8,
+      "hash": "5ba48b6e5a7c4d4930fda256f411e55b"
+    },
+    {
+      "name": "testing",
+      "type": "",
+      "directory": "test/fixtures",
+      "filepath": "test/fixtures/testing",
+      "size": 7,
+      "blocks": 8,
+      "hash": "fa6a5a3224d7da66d9e0bdec25f62cf0"
+    },
+    {
+      "name": "jabber.txt",
+      "type": ".txt",
+      "directory": "test/fixtures/more",
+      "filepath": "test/fixtures/more/jabber.txt",
+      "size": 60,
+      "blocks": 8,
+      "hash": "b2f60ebe87cf68134105e0e740137ae9"
+    },
+    {
+      "name": "jibber",
+      "type": "",
+      "directory": "test/fixtures/more",
+      "filepath": "test/fixtures/more/jibber",
+      "size": 76,
+      "blocks": 8,
+      "hash": "f5cfa480845848e52f9cd17c40e92d09"
+    },
+    {
+      "name": "bob.txt",
+      "type": ".txt",
+      "directory": "test/fixtures/other",
+      "filepath": "test/fixtures/other/bob.txt",
+      "size": 68,
+      "blocks": 8,
+      "hash": "873fc3361e08985366b886173ab49f92"
+    },
+    {
+      "name": "rando",
+      "type": "",
+      "directory": "test/fixtures/other",
+      "filepath": "test/fixtures/other/rando",
+      "size": 40,
+      "blocks": 8,
+      "hash": "8fce05b024c952dfd1ee09c365e00e99"
+    },
+    {
+      "name": "dogs-are-cool.md",
+      "type": ".md",
+      "directory": "test/fixtures/some",
+      "filepath": "test/fixtures/some/dogs-are-cool.md",
+      "size": 125,
+      "blocks": 8,
+      "hash": "73be55a5f737e1c6ff0af18e2bfbc0ef"
+    },
+    {
+      "name": "juggle.txt",
+      "type": ".txt",
+      "directory": "test/fixtures/some/nested",
+      "filepath": "test/fixtures/some/nested/juggle.txt",
+      "size": 57,
+      "blocks": 8,
+      "hash": "c23d6d85b7fa2ab4aa9dd97af5c9fa8e"
+    },
+    {
+      "name": "pool.txt",
+      "type": ".txt",
+      "directory": "test/fixtures/some/nested",
+      "filepath": "test/fixtures/some/nested/pool.txt",
+      "size": 57,
+      "blocks": 8,
+      "hash": "54127e0ca6082ec78761415187abca2e"
+    }
+  ],
+  "hash": "93126cc0faa6549a88c2e30ca4e915e5"
+}

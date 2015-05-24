@@ -1,0 +1,23 @@
+{
+  "files": [
+    {
+      "name": "bob.txt",
+      "type": ".txt",
+      "directory": "test/fixtures/other",
+      "filepath": "test/fixtures/other/bob.txt",
+      "size": 68,
+      "blocks": 8,
+      "hash": "a871482a9fa4953a1c1f1a28b5fbfc291bf13f17"
+    },
+    {
+      "name": "rando",
+      "type": "",
+      "directory": "test/fixtures/other",
+      "filepath": "test/fixtures/other/rando",
+      "size": 40,
+      "blocks": 8,
+      "hash": "f1d1b43c6a156825e5a06e3d7c27e767b489ef95"
+    }
+  ],
+  "hash": "a3c9070b1575eb3f7efd96b15eb949d22768acc1"
+}

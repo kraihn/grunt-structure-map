@@ -1,0 +1,50 @@
+{
+  "files": [
+    {
+      "name": "dogs-are-cool.md",
+      "type": ".md",
+      "directory": "test/fixtures/some",
+      "filepath": "test/fixtures/some/dogs-are-cool.md",
+      "size": 125,
+      "blocks": 8,
+      "hash": "9e95daf8ab8ab9140951a0b9e1ad30650bca7dc5"
+    },
+    {
+      "name": "juggle.txt",
+      "type": ".txt",
+      "directory": "test/fixtures/some/nested",
+      "filepath": "test/fixtures/some/nested/juggle.txt",
+      "size": 57,
+      "blocks": 8,
+      "hash": "5d71d71fc3d14b463166836d48c89b183d04740b"
+    },
+    {
+      "name": "pool.txt",
+      "type": ".txt",
+      "directory": "test/fixtures/some/nested",
+      "filepath": "test/fixtures/some/nested/pool.txt",
+      "size": 57,
+      "blocks": 8,
+      "hash": "7a2290dbb026b4e4544bdf18ca2bfe574165bc9d"
+    },
+    {
+      "name": "jabber.txt",
+      "type": ".txt",
+      "directory": "test/fixtures/more",
+      "filepath": "test/fixtures/more/jabber.txt",
+      "size": 60,
+      "blocks": 8,
+      "hash": "16a14e4beae89e6914e233d9b8cf5e411c69dfdd"
+    },
+    {
+      "name": "jibber",
+      "type": "",
+      "directory": "test/fixtures/more",
+      "filepath": "test/fixtures/more/jibber",
+      "size": 76,
+      "blocks": 8,
+      "hash": "c821b84ae0df35117f160f90ebecc7443e903b3b"
+    }
+  ],
+  "hash": "a5a5a1c15a26191de5f5361e59b17a8719202707"
+}

@@ -1,0 +1,45 @@
+{
+  "name": "grunt-structure-map",
+  "description": "A grunt plugin used to generate a JSON formatted structure map of a project directory.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/kraihn/grunt-structure-map",
+  "author": {
+    "name": "Jared Dickson",
+    "email": "code@jareddickson.com",
+    "url": "http://jareddickson.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kraihn/grunt-structure-map.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kraihn/grunt-structure-map/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/kraihn/grunt-structure-map/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "structure-map": "0.0.1"
+  }
+}

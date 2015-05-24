@@ -1,0 +1,23 @@
+{
+  "files": [
+    {
+      "name": "jabber.txt",
+      "type": ".txt",
+      "directory": "test/fixtures/more",
+      "filepath": "test/fixtures/more/jabber.txt",
+      "size": 60,
+      "blocks": 8,
+      "hash": "16a14e4beae89e6914e233d9b8cf5e411c69dfdd"
+    },
+    {
+      "name": "jibber",
+      "type": "",
+      "directory": "test/fixtures/more",
+      "filepath": "test/fixtures/more/jibber",
+      "size": 76,
+      "blocks": 8,
+      "hash": "c821b84ae0df35117f160f90ebecc7443e903b3b"
+    }
+  ],
+  "hash": "a3c9070b1575eb3f7efd96b15eb949d22768acc1"
+}
