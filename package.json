@@ -1,7 +1,7 @@
 {
   "name": "grunt-structure-map",
   "description": "A grunt plugin used to generate a JSON formatted structure map of a project directory.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/kraihn/grunt-structure-map",
   "author": {
     "name": "Jared Dickson",
@@ -40,6 +40,6 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "structure-map": "0.0.1"
+    "structure-map": "0.0.2"
   }
 }

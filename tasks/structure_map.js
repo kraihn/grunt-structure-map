@@ -13,17 +13,26 @@ module.exports = function (grunt) {
   // Please see the Grunt documentation for more information regarding task
   // creation: http://gruntjs.com/creating-tasks
 
-  grunt.registerMultiTask('structure_map', 'The best Grunt plugin ever.', function () {
+  grunt.registerMultiTask('structure_map', 'A grunt plugin used to generate a JSON formatted structure map of a project directory.', function () {
 
-    // Merge task-specific and/or target-specific options with these defaults.
     var structureMap = require('structure-map');
 
-    var directories = this.data.src || [];
-    if (directories.length === 0) {
-      directories.push('dist');
+    // Set default output if none is given
+    if (!this.data.dest) {
+      this.data.dest = 'structure-map.json';
     }
 
+    // Setup directories and directory default
+    var directories = this.data.src || [];
+    if (directories.length === 0) {
+      directories.push('.');
+    }
+
+    // Setup options and option defaults
     var options = this.data.options || {};
+    if (this.data.cwd) {
+      options.cwd = this.data.cwd;
+    }
 
     // Generate the structure map
     var map = structureMap.map(directories, options);
